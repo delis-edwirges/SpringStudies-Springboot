@@ -8,3 +8,6 @@ a mais para aparecerem no meu Get, ou http://localhost:8080/hello e hello2 :D</p
 <p>Inicio do projeto do meu blog pessoal, dessa vez um pouco mais elaborado, afinal, implementei um banco de dados!! Aquilo, ainda importado 
  do MySQL, mas logo logo vou fazer ele direto no Eclipse, hein (: É possível ver no meu localhost no Postman algumas diferenças no código em Jason hahah!
  Nas 3 vezes que inseri os dados, fiz testes de formas diferentes, relacionados a data.</p>
+ 
+ <strong>25/06/2021 Fazendo CRUD</strong>
+<p>Continuando meu projeto do blog pessoal, dessa vez inseri no meu Controller as operações de CRUD: Create (Post). Read (Get), Update (Put) e Delete (Delete) e realizei os testes no Postman, foi muito legal organizar os requests no meu Postman. Acho sua interface muito bonita! Também criei dois metódos, o de visualizar as postagens pelo id e encontrar as postagens pelo titulo.</p>
