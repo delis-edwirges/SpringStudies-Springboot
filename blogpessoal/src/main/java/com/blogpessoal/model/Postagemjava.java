@@ -49,10 +49,10 @@ public class Postagemjava {
 	public void setTexto(String texto) {
 		this.texto = texto;
 	}
-	public Date getDate() {
+	public Date getDatempo() {
 		return datatempo;
 	}
-	public void setDate(Date datatempo) {
+	public void setDatatempo(Date datatempo) {
 		this.datatempo = datatempo;
 	}
 	
