@@ -20,7 +20,7 @@ import com.blogpessoal.repository.PostagemRepository;
 
 @RestController
 @RequestMapping ("/postagens")
-@CrossOrigin("*")
+@CrossOrigin (origins = "*", allowedHeaders = "*")
 public class PostagemController {
 		@Autowired
 		private PostagemRepository repository;
@@ -38,7 +38,7 @@ public class PostagemController {
 			}
 		
 		@GetMapping ("/titulo/{titulo}")              
-		public ResponseEntity<List<Postagemjava>> etByTitulo(@PathVariable String titulo){                   
+		public ResponseEntity<List<Postagemjava>> GetByTitulo(@PathVariable String titulo){                   
 			return ResponseEntity.ok(repository.findAllByTituloContainingIgnoreCase(titulo));
 			
 		}
