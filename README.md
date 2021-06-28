@@ -11,3 +11,6 @@ a mais para aparecerem no meu Get, ou http://localhost:8080/hello e hello2 :D</p
  
  <strong>25/06/2021 Fazendo CRUD</strong>
 <p>Continuando meu projeto do blog pessoal, dessa vez inseri no meu Controller as operações de CRUD: Create (Post). Read (Get), Update (Put) e Delete (Delete) e realizei os testes no Postman, foi muito legal organizar os requests no meu Postman. Acho sua interface muito bonita! Também criei dois metódos, o de visualizar as postagens pelo id e encontrar as postagens pelo titulo.</p>
+
+<strong>28/06/2021 Usando a Foreign Key</strong>
+<p>Mais uma etapa do blog, dessa vez criei a categoria Tema e possibilitei realizar operações CRUD na mesma. mas a novidade - que também é a parte legal - é que fiz um relacionamento entre duas tabelas! Isso mesmo, agora Tema e Postagem estão conectados.</p>
