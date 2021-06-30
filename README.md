@@ -14,3 +14,8 @@ a mais para aparecerem no meu Get, ou http://localhost:8080/hello e hello2 :D</p
 
 <strong>28/06/2021 Usando a Foreign Key</strong>
 <p>Mais uma etapa do blog, dessa vez criei a categoria Tema e possibilitei realizar operações CRUD na mesma. mas a novidade - que também é a parte legal - é que fiz um relacionamento entre duas tabelas! Isso mesmo, agora Tema e Postagem estão conectados.</p>
+
+
+<strong>30/06/2021 Revisã30</strong>
+<p>Revisei os assuntos aprendidos criando a requisição HTTP de uma GameStore! Dessa vez criei mais atributos para serem usados, mas talvez na próxima oportunidade tente fazer mais de uma tabela!</p>
+
