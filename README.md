@@ -15,7 +15,9 @@ a mais para aparecerem no meu Get, ou http://localhost:8080/hello e hello2 :D</p
 <strong>28/06/2021 Usando a Foreign Key</strong>
 <p>Mais uma etapa do blog, dessa vez criei a categoria Tema e possibilitei realizar operações CRUD na mesma. mas a novidade - que também é a parte legal - é que fiz um relacionamento entre duas tabelas! Isso mesmo, agora Tema e Postagem estão conectados.</p>
 
-
 <strong>30/06/2021 Revisão</strong>
 <p>Revisei os assuntos aprendidos criando a requisição HTTP de uma GameStore! Dessa vez criei mais atributos para serem usados, mas talvez na próxima oportunidade tente fazer mais de uma tabela!</p>
+
+<strong>01/07/2021 Revisão + Lombok</strong>
+<p>Revisei os assunto mais uma vez, criando duas tabelas para uma farmácia, porém, dessa vez experimentando um software novo: o Lombok! Utilizei ele para encurtar meu código, não necessitando acrescentar os Getters e Setters, pois ele faz isso automaticamente. Confesso que foi muito divertido ver ele funcionar na prática, é incrível o quanto muda nossa Model! Ele tem mais uma variedade de outras funções e vou estar experimentando elas em um outro dia. </p>
 
