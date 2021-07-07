@@ -15,6 +15,11 @@ import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
 @Entity
 @Table (name = "tb_postagens")
 public class Postagemjava {
@@ -44,38 +49,10 @@ public class Postagemjava {
 	@JsonIgnoreProperties ("postagem")
 	private TemaModel tema;
 	
-	public long getId_postagem() {
-		return id_postagem;
-	}
-	public void setId_postagem(long id_postagem) {
-		this.id_postagem = id_postagem;
-	}
-	public String getTitulo() {
-		return titulo;
-	}
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
-	}
-	public String getTexto() {
-		return texto;
-	}
-	public void setTexto(String texto) {
-		this.texto = texto;
-	}
+	@ManyToOne
+	@JsonIgnoreProperties ("postagem")
+	private Usuario usuario;
 	
-	public Date getDatatempo() {
-		return datatempo;
-	}
-	public void setDatatempo(Date datatempo) {
-		this.datatempo = datatempo;
-	}
-	
-	public TemaModel getTema() {
-		return tema;
-	}
-	public void setTema(TemaModel tema) {
-		this.tema = tema;
-	}
-	
+
 	
 }
