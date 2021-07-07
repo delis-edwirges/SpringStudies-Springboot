@@ -21,3 +21,6 @@ a mais para aparecerem no meu Get, ou http://localhost:8080/hello e hello2 :D</p
 <strong>01/07/2021 Revisão + Lombok</strong>
 <p>Revisei os assunto mais uma vez, criando duas tabelas para uma farmácia, porém, dessa vez experimentando um software novo: o Lombok! Utilizei ele para encurtar meu código, não necessitando acrescentar os Getters e Setters, pois ele faz isso automaticamente. Confesso que foi muito divertido ver ele funcionar na prática, é incrível o quanto muda nossa Model! Ele tem mais uma variedade de outras funções e vou estar experimentando elas em um outro dia. </p>
 
+<strong>06/07/2021 Um pouco de Security</strong>
+<p> Dessa vez implementei a tabela Usuario, já criando ela com segurança e criptografia de senhas! Confesso, é bastante coisa pra pegar, mas foi muito divertido testar no Postman o relacionamento das 3 tabelas e a segurança funcionando na hora. :0 </p>
+
