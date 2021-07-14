@@ -11,6 +11,7 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.PositiveOrZero;
 import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -22,12 +23,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 @Table (name = "tb_postagens")
-public class Postagemjava {
+public class Postagem {
 	
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
 	@Column (name = "Numeracao") // para nomear uma coluna
-	private long id_postagem;
+	private long id;
 
 	@NotNull (message="O atributo título é obrigatório!")
 	@Size(min=5, max=100, message="O atributo titulo deve conter no mínimo 5 carecteres e no máximo 100")
@@ -41,17 +42,21 @@ public class Postagemjava {
 	private String texto;
 	
 	
-	@Temporal (TemporalType.TIMESTAMP)
-	@Column (name = "Momento_da_Postagem")
+	@Temporal(TemporalType.TIMESTAMP)         
 	private Date datatempo = new java.sql.Date(System.currentTimeMillis());
+	
+	@PositiveOrZero
+	private int curtidas;
 	
 	@ManyToOne
 	@JsonIgnoreProperties ("postagem")
-	private TemaModel tema;
+	private Tema tema;
 	
 	@ManyToOne
 	@JsonIgnoreProperties ("postagem")
 	private Usuario usuario;
+	
+
 	
 
 	
